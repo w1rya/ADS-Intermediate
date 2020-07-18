@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#e3342f</item>
+        <item name="colorPrimaryDark">#A3201C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.noActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.noActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/shape_rectangle_button_primary</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Button.SignUp">
+        <item name="android:text">Signup</item>
+    </style>
+
+    <style name="Button.Login">
+        <item name="android:text">Login</item>
+    </style>
+
+    <style name="Button.Secondary">
+        <item name="android:background">@drawable/shape_button_secondary</item>
+    </style>
+
+    <style name="Button.Start">
+        <item name="android:text">Get Started</item>
+    </style>
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextView.Large">
+        <item name="android:textColor">@color/blackHigh</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_grey</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="EditText.Username">
+        <item name="android:drawableStart">@drawable/ic_person_grey_24dp</item>
+        <item name="android:hint">Username</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="EditText.Email">
+        <item name="android:drawableStart">@drawable/ic_person_grey_24dp</item>
+        <item name="android:hint">Email</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="EditText.Password">
+        <item name="android:drawableStart">@drawable/ic_lock_grey_24dp</item>
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ADS Intermediate</string>
+    <string name="background_home">Background Home</string>
+    <string name="all_movies">All Movies</string>
+    <string name="view_all">View All</string>
+    <string name="title_activity_all_movie">All Movie</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="splash">ADS\nIntermediate</string>
+</resources>
